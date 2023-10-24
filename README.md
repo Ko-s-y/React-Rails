@@ -22,3 +22,9 @@ docker-compose up -d
 ```
 curl http://localhost:3001/api/v1/test
 ```
+
+### コンテナ再起動
+```
+docker-compose down
+docker-compose up -d
+```
